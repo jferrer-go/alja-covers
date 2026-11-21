@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "id": "alja-streaming-services-hbo-max",
+    "type": "collection",
+    "name": "HBO Max",
+    "posterShape": "poster",
+    "poster": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/hbo-max.jpg",
+    "collection": {
+      "sources": [
+        {
+          "addonId": "tmdb-addon",
+          "type": "movie",
+          "catalogId": "streaming.hbm"
+        },
+        {
+          "addonId": "tmdb-addon",
+          "type": "series",
+          "catalogId": "streaming.hbm"
+        }
+      ],
+      "layout": "tabs"
+    }
+  }
+}

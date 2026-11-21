@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "id": "alja-streaming-services-disney",
+    "type": "collection",
+    "name": "Disney+",
+    "posterShape": "poster",
+    "poster": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/disney-plus.jpg",
+    "collection": {
+      "sources": [
+        {
+          "addonId": "tmdb-addon",
+          "type": "movie",
+          "catalogId": "streaming.dnp"
+        },
+        {
+          "addonId": "tmdb-addon",
+          "type": "series",
+          "catalogId": "streaming.dnp"
+        }
+      ],
+      "layout": "tabs"
+    }
+  }
+}

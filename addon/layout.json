@@ -1,0 +1,229 @@
+{
+  "kind": "alja-collections-layout",
+  "version": 1,
+  "settings": {
+    "name": "ALJA Collections",
+    "id": "com.alja.collections",
+    "base": "https://jferrer-go.github.io/alja-covers/addon"
+  },
+  "addons": [
+    {
+      "id": "tmdb-addon",
+      "name": "The Movie Database Addon",
+      "catalogs": [
+        {
+          "type": "movie",
+          "id": "tmdb.latest",
+          "name": "Latest Releases",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "tmdb.latest",
+          "name": "Latest Releases",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "tmdb.trending",
+          "name": "Trending",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "tmdb.trending",
+          "name": "Trending",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "tmdb.top",
+          "name": "Popular",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "tmdb.top",
+          "name": "Popular",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "tmdb.year",
+          "name": "Year",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "tmdb.year",
+          "name": "Year",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "tmdb.language",
+          "name": "Language",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "tmdb.language",
+          "name": "Language",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "streaming.nfx",
+          "name": "Netflix",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "streaming.nfx",
+          "name": "Netflix",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "streaming.hbm",
+          "name": "HBO Max",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "streaming.hbm",
+          "name": "HBO Max",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "streaming.dnp",
+          "name": "Disney+",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "streaming.dnp",
+          "name": "Disney+",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "streaming.atp",
+          "name": "Apple TV+",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "streaming.atp",
+          "name": "Apple TV+",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "streaming.amp",
+          "name": "Prime Video",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "streaming.amp",
+          "name": "Prime Video",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "streaming.hlu",
+          "name": "Hulu",
+          "hasGenre": true
+        },
+        {
+          "type": "series",
+          "id": "streaming.hlu",
+          "name": "Hulu",
+          "hasGenre": true
+        },
+        {
+          "type": "movie",
+          "id": "tmdb.search",
+          "name": "Search",
+          "hasGenre": false
+        },
+        {
+          "type": "series",
+          "id": "tmdb.search",
+          "name": "Search",
+          "hasGenre": false
+        }
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "qp0gf9",
+      "title": "Streaming Services",
+      "folders": [
+        {
+          "id": "8ojijd",
+          "title": "Netflix",
+          "cover": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/netflix.jpg",
+          "shape": "POSTER",
+          "sources": [
+            {
+              "addonId": "tmdb-addon",
+              "type": "movie",
+              "catalogId": "streaming.nfx",
+              "name": "Netflix"
+            },
+            {
+              "addonId": "tmdb-addon",
+              "type": "series",
+              "catalogId": "streaming.nfx",
+              "name": "Netflix"
+            }
+          ]
+        },
+        {
+          "id": "1p2pxk",
+          "title": "HBO Max",
+          "cover": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/hbo-max.jpg",
+          "shape": "POSTER",
+          "sources": [
+            {
+              "addonId": "tmdb-addon",
+              "type": "movie",
+              "catalogId": "streaming.hbm",
+              "name": "HBO Max"
+            },
+            {
+              "addonId": "tmdb-addon",
+              "type": "series",
+              "catalogId": "streaming.hbm",
+              "name": "HBO Max"
+            }
+          ]
+        },
+        {
+          "id": "8wu2b2",
+          "title": "Disney+",
+          "cover": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/disney-plus.jpg",
+          "shape": "POSTER",
+          "sources": [
+            {
+              "addonId": "tmdb-addon",
+              "type": "movie",
+              "catalogId": "streaming.dnp",
+              "name": "Disney+"
+            },
+            {
+              "addonId": "tmdb-addon",
+              "type": "series",
+              "catalogId": "streaming.dnp",
+              "name": "Disney+"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

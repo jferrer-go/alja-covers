@@ -1,0 +1,45 @@
+{
+  "id": "com.alja.collections",
+  "version": "1.0.20497",
+  "name": "ALJA Collections",
+  "description": "Custom collections with hand-picked covers, filled from TMDB and MDBList catalogs.",
+  "resources": [
+    "catalog",
+    {
+      "name": "meta",
+      "types": [
+        "collection"
+      ],
+      "idPrefixes": [
+        "alja-"
+      ]
+    }
+  ],
+  "types": [
+    "collection"
+  ],
+  "idPrefixes": [
+    "alja-"
+  ],
+  "catalogs": [
+    {
+      "type": "collection",
+      "id": "alja-col-streaming-services",
+      "name": "Streaming Services",
+      "extra": [
+        {
+          "name": "genre",
+          "options": [
+            "None"
+          ],
+          "isRequired": true
+        }
+      ],
+      "showInHome": false
+    }
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "configurationRequired": false
+  }
+}

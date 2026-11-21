@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "id": "alja-streaming-services-netflix",
+    "type": "collection",
+    "name": "Netflix",
+    "posterShape": "poster",
+    "poster": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/netflix.jpg",
+    "collection": {
+      "sources": [
+        {
+          "addonId": "tmdb-addon",
+          "type": "movie",
+          "catalogId": "streaming.nfx"
+        },
+        {
+          "addonId": "tmdb-addon",
+          "type": "series",
+          "catalogId": "streaming.nfx"
+        }
+      ],
+      "layout": "tabs"
+    }
+  }
+}
