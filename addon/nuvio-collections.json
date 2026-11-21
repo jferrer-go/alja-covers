@@ -1,0 +1,190 @@
+[
+  {
+    "id": "qp0gf9",
+    "title": "Streaming Services",
+    "backdropImageUrl": null,
+    "pinToTop": false,
+    "focusGlowEnabled": true,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "folders": [
+      {
+        "id": "8ojijd",
+        "title": "Netflix",
+        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/netflix.jpg",
+        "focusGifUrl": null,
+        "focusGifEnabled": true,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": false,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "movie",
+            "catalogId": "streaming.nfx",
+            "catalogName": "Netflix",
+            "title": "Netflix",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "series",
+            "catalogId": "streaming.nfx",
+            "catalogName": "Netflix",
+            "title": "Netflix",
+            "genre": null
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "movie",
+            "catalogId": "streaming.nfx",
+            "catalogName": "Netflix",
+            "title": "Netflix",
+            "genre": null
+          },
+          {
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "series",
+            "catalogId": "streaming.nfx",
+            "catalogName": "Netflix",
+            "title": "Netflix",
+            "genre": null
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null
+      },
+      {
+        "id": "1p2pxk",
+        "title": "HBO Max",
+        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/hbo-max.jpg",
+        "focusGifUrl": null,
+        "focusGifEnabled": true,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": false,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "movie",
+            "catalogId": "streaming.hbm",
+            "catalogName": "HBO Max",
+            "title": "HBO Max",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "series",
+            "catalogId": "streaming.hbm",
+            "catalogName": "HBO Max",
+            "title": "HBO Max",
+            "genre": null
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "movie",
+            "catalogId": "streaming.hbm",
+            "catalogName": "HBO Max",
+            "title": "HBO Max",
+            "genre": null
+          },
+          {
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "series",
+            "catalogId": "streaming.hbm",
+            "catalogName": "HBO Max",
+            "title": "HBO Max",
+            "genre": null
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null
+      },
+      {
+        "id": "8wu2b2",
+        "title": "Disney+",
+        "coverImageUrl": "https://raw.githubusercontent.com/jferrer-go/alja-covers/main/covers/streaming-services/disney-plus.jpg",
+        "focusGifUrl": null,
+        "focusGifEnabled": true,
+        "coverEmoji": null,
+        "tileShape": "POSTER",
+        "hideTitle": false,
+        "sources": [
+          {
+            "provider": "addon",
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "movie",
+            "catalogId": "streaming.dnp",
+            "catalogName": "Disney+",
+            "title": "Disney+",
+            "genre": null
+          },
+          {
+            "provider": "addon",
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "series",
+            "catalogId": "streaming.dnp",
+            "catalogName": "Disney+",
+            "title": "Disney+",
+            "genre": null
+          }
+        ],
+        "catalogSources": [
+          {
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "movie",
+            "catalogId": "streaming.dnp",
+            "catalogName": "Disney+",
+            "title": "Disney+",
+            "genre": null
+          },
+          {
+            "addonId": "tmdb-addon",
+            "addonBaseUrl": null,
+            "addonName": "The Movie Database Addon",
+            "type": "series",
+            "catalogId": "streaming.dnp",
+            "catalogName": "Disney+",
+            "title": "Disney+",
+            "genre": null
+          }
+        ],
+        "heroBackdropUrl": null,
+        "heroVideoUrl": null,
+        "titleLogoUrl": null
+      }
+    ]
+  }
+]
